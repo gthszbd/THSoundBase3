@@ -1,0 +1,16 @@
+PODS:
+  - THSoundBase3 (0.1.0)
+
+DEPENDENCIES:
+  - THSoundBase3 (from `../`)
+
+EXTERNAL SOURCES:
+  THSoundBase3:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  THSoundBase3: 08ceef310bc32441ee93d02e61bff99e341d9cda
+
+PODFILE CHECKSUM: 2eb7f192173de0e054babeacabf097d88049e8a9
+
+COCOAPODS: 1.5.3

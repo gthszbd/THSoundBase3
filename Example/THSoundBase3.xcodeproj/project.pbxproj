@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		116C358998EACBC36F6A51A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		116C358998EACBC36F6A51A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		450D4561ECBB636F5CB334D4 /* Pods-THSoundBase3_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSoundBase3_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THSoundBase3_Tests/Pods-THSoundBase3_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* THSoundBase3_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THSoundBase3_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD4E50733E3D6B792D2718D /* Pods_THSoundBase3_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THSoundBase3_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1DFC5C624EB6C2A592C6A4 /* Pods-THSoundBase3_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSoundBase3_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THSoundBase3_Example/Pods-THSoundBase3_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE88BDBDE174913FA585B6F2 /* THSoundBase3.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = THSoundBase3.podspec; path = ../THSoundBase3.podspec; sourceTree = "<group>"; };
+		AE88BDBDE174913FA585B6F2 /* THSoundBase3.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = THSoundBase3.podspec; path = ../THSoundBase3.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2C5BD21E4EF48C58C64DEE2 /* Pods-THSoundBase3_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSoundBase3_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-THSoundBase3_Example/Pods-THSoundBase3_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EB2AB8148379D56EF85CD85D /* Pods_THSoundBase3_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THSoundBase3_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA478D61C5731D6528BE00ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA478D61C5731D6528BE00ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-THSoundBase3_Example/Pods-THSoundBase3_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/THSoundBase3/THSoundBase3.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/THSoundBase3.framework",
 			);
@@ -321,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-THSoundBase3_Tests-checkManifestLockResult.txt",
 			);
@@ -343,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-THSoundBase3_Example-checkManifestLockResult.txt",
 			);

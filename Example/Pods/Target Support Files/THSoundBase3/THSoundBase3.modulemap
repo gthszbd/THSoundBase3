@@ -1,0 +1,6 @@
+framework module THSoundBase3 {
+  umbrella header "THSoundBase3-umbrella.h"
+
+  export *
+  module * { export * }
+}

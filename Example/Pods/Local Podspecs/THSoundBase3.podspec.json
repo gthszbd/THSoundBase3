@@ -1,0 +1,22 @@
+{
+  "name": "THSoundBase3",
+  "version": "0.1.0",
+  "summary": "A short description of THSoundBase3.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/583925692@qq.com/THSoundBase3",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "583925692@qq.com": "583925692@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/583925692@qq.com/THSoundBase3.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "THSoundBase3/Classes/**/*"
+}

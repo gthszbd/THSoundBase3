@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'THSoundBase3'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of THSoundBase3.'
+  s.summary          = 'THSoundBase3.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'THSoundBase3基础组建的运用.'
 
-  s.homepage         = 'https://github.com/583925692@qq.com/THSoundBase3'
+  s.homepage         = 'https://github.com/gthszbd/THSoundBase3'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '583925692@qq.com' => '583925692@qq.com' }
-  s.source           = { :git => 'https://github.com/583925692@qq.com/THSoundBase3.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gthszbd/THSoundBase3.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
