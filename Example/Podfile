@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'THSoundBase3_Example' do
+  pod 'THSoundBase3', :path => '../'
+
+  target 'THSoundBase3_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
